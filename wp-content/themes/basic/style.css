@@ -4,6 +4,52 @@
   Author: Trevor
 */
 
+.box {
+		background-color: #000;
+		position: relative;
+		display: block;
+		background-size: 100%;
+		float: left;
+		margin-right: 10px;
+		width: 225px;
+		height: 225px;
+	}
+
+	.box:hover .content{
+		display: block;
+	}
+	
+	.box:hover .bg {
+		transition: all 0.5s ease;
+		opacity: .5;
+	}
+	.box .content{
+		display: none;
+		position: absolute;
+		color:#fff;
+		padding: 40px;
+		z-index: 10;
+		 transition: all 0.5s ease;
+	}
+	.box .bg {
+		position: absolute;
+		width: 225px;
+		height: 225px;
+		overflow: hidden;
+		 transition: all 0.5s ease;
+	}
+	.box .bg img {
+		height: 100%;
+	}
+	h3 {
+		font-size: 30px;
+		font-family: arial;
+	}
+
+
+
+/*hover states above*/
+
 .fullwidth {
 	width: 100%;
 }

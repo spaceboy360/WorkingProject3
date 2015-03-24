@@ -25,11 +25,15 @@
          
         
 
-	<a target="_blank" href="<?php the_field('link');?>">
-          		<img class="img-responsive" src="<?php the_field('person');?>"   
-          		onmouseover="this.src='<?php the_field('hover');?>'"
-           		onmouseout="this.src='<?php the_field('person');?>'">
-    </a>
+	<a class="box" href="<?php the_field('link');?>">
+		<div class="content">
+			<h3>Some title here</h3>
+			<p>some other text here</p>
+		</div>
+		<div class="bg">
+			<img src="<?php the_field('person');?>" alt="">
+		</div>
+	</a>
 
                            
 
