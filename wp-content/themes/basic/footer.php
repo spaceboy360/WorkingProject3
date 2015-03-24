@@ -30,6 +30,7 @@
 			<h3 class="centercontent"><?php the_field('hovertitle');?></h3>
 			<!-- <p><?php the_field('hovertext');?></p> -->
 		</div>
+		
 		<div class="bg">
 			<img src="<?php the_field('person');?>" alt="">
 		</div>
