@@ -4,24 +4,55 @@ Template Name: Search Page
 */
 ?>
 
-<div class="row gray2 spaces">
-	<div class="container setwidth">
+<div class="container setwidth">
+  <?php 
 
-		<div class="col-xs-12">
+if(isset($_GET['search']))
+    {
+      $search = $_GET['search'];
+    }
+else 
+    {
+     $search = null;
+    }
 
-			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-		  	<h1><?php the_title(); ?></h1>
-		 	<?php the_content(); ?>
+ $mainargs = array(
+            'post_type'       =>'mainfood',
+            'orderby'         =>'rand',
+            // 'posts_per_page'  => '6',
+            
+           's'           => $search
+            );
+          
+          // WP LOOP
+          $mainfood = new WP_Query( $mainargs ); ?>
+          
+          <?php if ($mainfood->have_posts()) : while ($mainfood->have_posts()) : $mainfood->the_post(); ?>
 
-			 <?php endwhile; else: ?>
-			    <p>Sorry, no pages matched your criteria.</p>
-			<?php endif; ?>
+  <div class="col-xs-6 down4">    
+      <a href="<?php the_permalink();?>">
+          <img class="img-responsive" src="<?php the_field('thumbnail');?>" alt="">                       
+      </a>    
+  </div>
 
-		</div>
+  <div class="col-xs-6">
+            <?php the_field('thumbnailtext'); ?>
+            <a href="<?php bloginfo('url');?>/home/" class="btn btn-primary btn-sm margin2 down88">Go Back</a>
+  </div>
 
-	</div>
+   <?php endwhile; else: ?>
+      
+    <p>Sorry, no food matched your criteria.</p>
+    <?php endif; ?>
+    <?php wp_reset_postdata(); ?>
+
+    <!-- Other sub food -->
+
+    
+
 </div>
+
 
 <?php get_footer(); ?>
 

@@ -1,7 +1,4 @@
 <!DOCTYPE html>
-
-
-
 <html>
 <head>
 	<title><?php if(is_home()) bloginfo('name'); else wp_title(''); ?></title>
@@ -23,23 +20,25 @@
 	  	<div class="container">
 		  	<div class="navigation noborder spacing1">
 		  		<div class="col-xs-4 logodown">
-		  			
-		  			<form action="<?php bloginfo('url' );?>/search" method="GET">
 
-  						<div class="form-group">
-  							<div class="col-xs-9">
-    							<input type="text" value="<?php if(isset($_GET['search'])){echo $_GET['search'];} ?>" name="search" class="form-control" placeholder="Search">
-    						</div>
-    					</div>
-    					<div class="col-xs-3">
-	    					<div>
-	    						<input type="submit" class="btn" value="Search">
-	  						</div>
-  						</div>
 
-  					</form>
-  							
-				
+
+
+
+<form role="search" method="get" id="searchform" class="searchform" action="<?php bloginfo('url' ); ?>/search">
+	<div class="form-group">
+		<div class="col-xs-9">
+    		<input type="text" name="search" class="form-control" placeholder="Search">
+    	</div>
+
+    	<div class="col-xs-3">
+    		<input type="submit" class="btn btn-primary" value="Search">
+  		</div>
+	</div>
+</form>
+
+
+  											
 		  		</div>
 		  		<div class="col-xs-8 bottom">
 				  	<ul class="nav nav-pills pull-right">
