@@ -24,19 +24,19 @@
       
    
 	<a class="box" data-toggle="modal" data-target="#m<?php the_id();?>" href="<?php the_field('link');?> " target="_blank">
-		<div class="content center88">
+			<div class="content center88">
 			
 			 <!-- <p><?php the_field('hovertext');?></p>  -->
-		</div>
+			</div>
 		
-		<div class="bg">
-			<img src="<?php the_field('person');?>" alt="">
-		</div>
+			<div class="bg">
+				<img src="<?php the_field('person');?>" alt="">
+			</div>
 
-		<div class="content center88">
-			<h3 class="centercontent"><?php the_field('hovertitle');?></h3>
-			<!-- <p><?php the_field('hovertext');?></p> -->
-		</div>
+			<div class="content center88">
+				<h3 class="centercontent"><?php the_field('hovertitle');?></h3>
+				<!-- <p><?php the_field('hovertext');?></p> -->
+			</div>
 	</a>
 
 
