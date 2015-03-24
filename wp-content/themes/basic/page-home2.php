@@ -46,7 +46,7 @@ if(isset($_GET['search'])){
           <?php if ($mainfood->have_posts()) : while ($mainfood->have_posts()) : $mainfood->the_post(); ?>
 
   <div class="col-xs-6 down4">    
-      <a target="_blank" href="<?php the_permalink();?>">
+      <a href="<?php the_permalink();?>">
           <img class="img-responsive" src="<?php the_field('thumbnail');?>" alt="">                       
       </a>    
   </div>
@@ -72,7 +72,7 @@ if(isset($_GET['search'])){
           <?php if ($subfood->have_posts()) : while ($subfood->have_posts()) : $subfood->the_post(); ?>
 
   <div class="col-xs-4 ">    
-      <a target="_blank" href="<?php the_permalink();?>">
+      <a href="<?php the_permalink();?>">
           <img class="img-responsive" src="<?php the_field('subthumbnail');?>" alt="">                       
       </a>    
   </div>
