@@ -26,9 +26,9 @@
         
 
 	<a class="box" href="<?php the_field('link');?> " target="_blank">
-		<div class="content">
-			<h3>Some title here</h3>
-			<p>some other text here</p>
+		<div class="content center88">
+			<h3 class="centercontent"><?php the_field('hovertitle');?></h3>
+			<!-- <p><?php the_field('hovertext');?></p> -->
 		</div>
 		<div class="bg">
 			<img src="<?php the_field('person');?>" alt="">

@@ -31,6 +31,18 @@
 		z-index: 10;
 		 transition: all 0.5s ease;
 	}
+
+	.center88 {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+
+	.centercontent {
+		text-align: center;
+	}
+
 	.box .bg {
 		position: absolute;
 		width: 225px;
