@@ -22,20 +22,61 @@
 
   <div class="col-xs-3 space5">    
       
-         
-        
-
-	<a class="box" href="<?php the_field('link');?> " target="_blank">
+   
+	<a class="box" data-toggle="modal" data-target="#m<?php the_id();?>" href="<?php the_field('link');?> " target="_blank">
 		<div class="content center88">
-			<h3 class="centercontent"><?php the_field('hovertitle');?></h3>
-			<!-- <p><?php the_field('hovertext');?></p> -->
+			
+			 <!-- <p><?php the_field('hovertext');?></p>  -->
 		</div>
 		
 		<div class="bg">
 			<img src="<?php the_field('person');?>" alt="">
 		</div>
+
+		<div class="content center88">
+			<h3 class="centercontent"><?php the_field('hovertitle');?></h3>
+			<!-- <p><?php the_field('hovertext');?></p> -->
+		</div>
 	</a>
 
+
+
+
+					<div class="modal fade" id="m<?php the_id();?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						      </div>
+						      <div class="modal-body gray2">
+						      		<div class="well size8">
+
+  										<a class="box" href="<?php the_field('link');?> " target="_blank">
+										<div class="content center88">
+											<h3 class="centercontent"><?php the_field('hovertitle');?></h3>
+											<!-- <p><?php the_field('hovertext');?></p> -->
+										</div>
+										
+										<div class="bg">
+											<img src="<?php the_field('person');?>" alt="">
+										</div>
+									</a>
+									<?php the_field('hovertext');?>
+    										
+									</div>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+
+
+
+
+
+
+        
+
+	
                            
 
       		  
