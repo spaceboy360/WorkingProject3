@@ -5,7 +5,8 @@ Template Name: Home2 Page
 ?>
 
 
-
+<div class="row gray2 down5">
+    <div class="container setwidth type1">
 
 <div class="container setwidth">
   <?php 
@@ -88,8 +89,7 @@ else
 
   
 
-  <div class="row gray2 down5">
-    <div class="container setwidth type1">
+  
     </div>
   </div>
 
