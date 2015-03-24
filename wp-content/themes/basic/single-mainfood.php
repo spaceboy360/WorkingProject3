@@ -23,7 +23,7 @@
 
         <div class="col-xs-6">
             <?php the_field('thumbnailtext'); ?>
-            <a href="<?php bloginfo('url');?>/home/" class="btn btn-primary btn-sm margin2">Go Back</a>
+            <a href="<?php bloginfo('url');?>/home/" class="btn btn-primary btn-sm margin2 down88">Go Back</a>
         </div>
 
       </div>
