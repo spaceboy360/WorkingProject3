@@ -1,6 +1,6 @@
 <?php get_header();
 /*
-Template Name: Home2 Page
+Template Name: Posts Page
 */
 ?>
 
@@ -9,32 +9,7 @@ Template Name: Home2 Page
     <div class="container setwidth type1">
 
 <div class="container setwidth">
-  <?php 
-
-if(isset($_GET['search']))
-    {
-      $search = $_GET['search'];
-    }
-else 
-    {
-     $search = null;
-    }
-
-
- $mainargs = array(
-            'post_type'       =>'mainfood',
-            'orderby'         =>'rand',
-            // 'posts_per_page'  => '6',
-            
-           's'           => $search
-            );
-          
-          // WP LOOP
-          $mainfood = new WP_Query( $mainargs ); ?>
-
-          
-          
-          <?php if ($mainfood->have_posts()) : while ($mainfood->have_posts()) : $mainfood->the_post(); ?>
+ 
 
   <div class="col-xs-6 down4">    
       <a href="<?php the_permalink();?>">
@@ -42,11 +17,13 @@ else
       </a>    
   </div>
 
-   <?php endwhile; else: ?>
-      
-    <p>Sorry, no food matched your criteria.</p>
-    <?php endif; ?>
-    <?php wp_reset_postdata(); ?>
+   <div class="col-xs-6 down4">    
+      <a href="<?php the_permalink();?>">
+          <img class="img-responsive" src="<?php the_field('thumbnailtext');?>" alt="">                       
+      </a>    
+  </div>
+
+  
 
 </div>
 
