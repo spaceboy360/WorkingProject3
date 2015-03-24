@@ -25,7 +25,7 @@
          
         
 
-	<a class="box" href="<?php the_field('link');?>">
+	<a class="box" href="<?php the_field('link');?> " target="_blank">
 		<div class="content">
 			<h3>Some title here</h3>
 			<p>some other text here</p>
