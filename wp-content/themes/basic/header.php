@@ -24,7 +24,7 @@
 		  	<div class="navigation noborder spacing1">
 		  		<div class="col-xs-4 logodown">
 		  			
-		  			<form action="" method="GET">
+		  			<form action="<?php bloginfo('url' );?>/search" method="GET">
 
   						<div class="form-group">
   							<div class="col-xs-9">
