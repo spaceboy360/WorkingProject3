@@ -71,11 +71,25 @@ if(isset($_GET['search'])){
           
           <?php if ($subfood->have_posts()) : while ($subfood->have_posts()) : $subfood->the_post(); ?>
 
-  <div class="col-xs-4 ">    
-      <a href="<?php the_permalink();?>">
-          <img class="img-responsive" src="<?php the_field('subthumbnail');?>" alt="">                       
-      </a>    
-  </div>
+  <!-- <div class="col-xs-4 ">     -->
+      <!-- <a href="<?php the_permalink();?>"> -->
+          <!-- <img class="img-responsive" src="<?php the_field('subthumbnail');?>" alt="">                        -->
+      <!-- </a>     -->
+  <!-- </div> -->
+
+
+<a class="box2" href="<?php the_permalink();?> ">
+    <div class="content2 center88">
+      <h3 class="centercontent"><?php the_field('foodhovertitle');?></h3>
+      <!-- <p><?php the_field('hovertext');?></p> -->
+    </div>
+    
+    <div class="bg">
+      <img src="<?php the_field('subthumbnail');?>" alt="">
+    </div>
+  </a>
+
+
 
    <?php endwhile; else: ?>
       

@@ -62,6 +62,57 @@
 
 /*hover states above*/
 
+.box2 {
+		background-color: #000;
+		position: relative;
+		display: block;
+		background-size: 100%;
+		float: left;
+		margin-right: 10px;
+		width: 319px;
+		height: 242px;
+	}
+
+	.box2:hover .content2{
+		display: block;
+	}
+	
+	.box2:hover .bg {
+		transition: all 0.5s ease;
+		opacity: .5;
+	}
+	.box2 .content2{
+		display: none;
+		position: absolute;
+		color:#fff;
+		padding: 40px;
+		z-index: 10;
+		 transition: all 0.5s ease;
+	}
+
+
+
+
+
+	.box2 .bg {
+		position: absolute;
+		width: 319px;
+		height: 242px;
+		overflow: hidden;
+		 transition: all 0.5s ease;
+	}
+	.box2 .bg img {
+		height: 100%;
+	}
+	h3 {
+		font-size: 30px;
+		font-family: arial;
+	}
+
+
+
+/*hover states2 above*/
+
 .fullwidth {
 	width: 100%;
 }
