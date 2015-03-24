@@ -12,22 +12,28 @@
            
 
        
-       <span class="container setwidth">
+       <div class="container setwidth">
            
-                  <span class="col-xs-6 ">
+                  
                          <h1><?php the_title(); ?></h1>
-                              <?php echo get_the_date(); ?> by <?php the_author(); ?>
+                              
+                  <div class="col-xs-6 ">
                         <img class="img-responsive" src="<?php the_field('thumbnail');?>" alt="">
-                  </span>
-      </span>
+                  </div>
+
+        <div class="col-xs-6">
+            <?php the_field('thumbnailtext'); ?>
+        </div>
+
+      </div>
 
 
 
       <a href="<?php bloginfo('url');?>/home/" class="btn btn-primary btn-sm margin2">Go Back</a>
 
-      <span class="col-xs-6">
+      <div class="col-xs-6">
       	<img class="img-responsive" src="<?php the_field("image");?>" alt="">
-      </span>
+      </div>
 
       </p>
 
