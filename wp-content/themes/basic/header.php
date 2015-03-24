@@ -12,6 +12,9 @@
     <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/bootstrap.min.js"></script>
 	<?php wp_head();?>
 
+	<!-- Font Awesome link -->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
 </head>
 <body>
   <div class="container fullwidth">
