@@ -18,23 +18,27 @@
   	
 	<div class="row gray2">
 	  	<div class="container">
-		  	<div class="navigation noborder spacing1" id="nav-padding">
+		  	<div class="navigation noborder spacing1">
 		  		<div class="col-xs-4 logodown">
 
-					<!-- SEARCH FORM - START -->
-					<form role="search" method="get" id="searchform" class="searchform" action="<?php bloginfo('url' ); ?>/search">
-						<div class="form-group">
-							<div class="col-xs-9">
-					    		<input type="text" name="search" class="form-control" placeholder="Search">
-					    	</div>
 
-					    	<div class="col-xs-3">
-					    		<input type="submit" class="btn btn-primary" value="Search">
-					  		</div>
-						</div>
-					</form>
-					<!-- SEARCH FORM - START -->
-								
+
+
+
+<form role="search" method="get" id="searchform" class="searchform" action="<?php bloginfo('url' ); ?>/search">
+	<div class="form-group">
+		<div class="col-xs-9">
+    		<input type="text" name="search" class="form-control" placeholder="Search">
+    	</div>
+
+    	<div class="col-xs-3">
+    		<input type="submit" class="btn btn-primary" value="Search">
+  		</div>
+	</div>
+</form>
+
+
+  											
 		  		</div>
 		  		<div class="col-xs-8 bottom">
 				  	<ul class="nav nav-pills pull-right">

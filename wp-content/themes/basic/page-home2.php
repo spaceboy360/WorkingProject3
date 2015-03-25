@@ -6,66 +6,67 @@ Template Name: Home2 Page
 
 
 <div class="row gray2 down5">
-    <div class="container setwidth type1 container-padding-v">
+    <div class="container setwidth type1">
 
-      <div class="container setwidth">
-        <?php 
+<div class="container setwidth">
+  <?php 
 
-      if(isset($_GET['search']))
-          {
-            $search = $_GET['search'];
-          }
-      else 
-          {
-           $search = null;
-          }
-
-
-       $mainargs = array(
-                  'post_type'       =>'mainfood',
-                  'orderby'         =>'rand',
-                  // 'posts_per_page'  => '6',
-                  
-                 's'           => $search
-                  );
-                
-                // WP LOOP
-                $mainfood = new WP_Query( $mainargs ); ?>
-                
-                <?php if ($mainfood->have_posts()) : while ($mainfood->have_posts()) : $mainfood->the_post(); ?>
-
-        <div class="col-xs-6 down4">    
-               
-                  <a class="box8" href="<?php the_permalink();?> ">
-                          <div class="content center88">
-                            <h1 class="centercontent2"><?php the_field('mainfoodhovertitle');?></h1>
-                            <img class="img-responsive" src="<?php the_field('person');?>" alt="">
-                            <!-- <p><?php the_field(/*'hovertext'*/);?></p> -->
-                          </div>
-                          
-                          <div class="bg">
-                             <img class="img-responsive" src="<?php the_field('thumbnail');?>" alt="">  
-                          </div>
-                  </a>
-        </div>
+if(isset($_GET['search']))
+    {
+      $search = $_GET['search'];
+    }
+else 
+    {
+     $search = null;
+    }
 
 
-
-
-
-                        
-
-
-
-
-
-         <?php endwhile; else: ?>
+ $mainargs = array(
+            'post_type'       =>'mainfood',
+            'orderby'         =>'rand',
+            // 'posts_per_page'  => '6',
             
-          <p>Sorry, no food matched your criteria.</p>
-          <?php endif; ?>
-          <?php wp_reset_postdata(); ?>
+           's'           => $search
+            );
+          
+          // WP LOOP
+          $mainfood = new WP_Query( $mainargs ); ?>
+          
+          <?php if ($mainfood->have_posts()) : while ($mainfood->have_posts()) : $mainfood->the_post(); ?>
 
-      </div>
+  <div class="col-xs-6 down4">    
+         
+            <a class="box8" href="<?php the_permalink();?> ">
+                    <div class="content center88">
+                      <h1 class="centercontent2"><?php the_field('mainfoodhovertitle');?></h1>
+                      <img class="img-responsive" src="<?php the_field('person');?>" alt="">
+                      <!-- <p><?php the_field('hovertext');?></p> -->
+                    </div>
+                    
+                    <div class="bg">
+                       <img class="img-responsive" src="<?php the_field('thumbnail');?>" alt="">  
+
+                    </div>
+            </a>
+  </div>
+
+
+
+
+
+                  
+
+
+
+
+
+   <?php endwhile; else: ?>
+      
+    <p>Sorry, no food matched your criteria.</p>
+    <?php endif; ?>
+    <?php wp_reset_postdata(); ?>
+
+</div>
 
 
   <div class="container setwidth">
@@ -96,6 +97,7 @@ Template Name: Home2 Page
                 <img src="<?php the_field('subthumbnail');?>" alt="">
               </div>
           </a>
+
 
 
 
