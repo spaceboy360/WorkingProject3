@@ -3,11 +3,9 @@
 	</div>
       
 	<div class="row white">
-		<div class="container footer setwidth container-padding">
+		<div class="container footer setwidth">
 			<div class="col-xs-12">
 				<h2 class="footertype1">The Chefs</h2>
-				<br>
-				<br>
 			</div>
 
 		
@@ -22,7 +20,7 @@
           
           <?php if ($chef->have_posts()) : while ($chef->have_posts()) : $chef->the_post(); ?>
 
-  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 space5">    
+  <div class="col-xs-3 space5">    
       
    
 	<a class="box" data-toggle="modal" data-target="#m<?php the_id();?>" href="<?php the_field('link');?> " target="_blank">
