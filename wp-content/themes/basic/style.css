@@ -4,6 +4,67 @@
   Author: Trevor
 */
 
+
+.box8 {
+		background-color: #000;
+		position: relative;
+		display: block;
+		background-size: 100%;
+		float: left;
+		margin-right: 47px;
+		width: 477px;
+		height: 468px;
+	}
+
+	.size8 {
+	height: 260px;
+}
+	.box8:hover .content{
+		display: block;
+	}
+	
+	.box8:hover .bg {
+		transition: all 0.5s ease;
+		opacity: .5;
+	}
+	.box8 .content{
+		display: none;
+		position: absolute;
+		color:#fff;
+		padding: 40px;
+		z-index: 10;
+		 transition: all 0.5s ease;
+	}
+
+	.center88 {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+
+	.centercontent {
+		text-align: center;
+	}
+
+	.box8 .bg {
+		position: absolute;
+		
+		overflow: hidden;
+		 transition: all 0.5s ease;
+	}
+	.box8 .bg img {
+		height: 100%;
+	}
+	h3 {
+		font-size: 30px;
+		font-family: arial;
+	}
+
+
+
+/*hover states above*/
+
 .box {
 		background-color: #000;
 		position: relative;
@@ -45,6 +106,12 @@
 
 	.centercontent {
 		text-align: center;
+	}
+
+	.centercontent2 {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.box .bg {

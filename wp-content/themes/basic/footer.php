@@ -51,7 +51,7 @@
 						      <div class="modal-body gray2">
 						      		<div class="well size8">
 
-  										<a class="box" href="<?php the_field('link');?> " target="_blank">
+  									<a class="box" href="<?php the_field('link');?> " target="_blank">
 										<div class="content center88">
 											<h3 class="centercontent"><?php the_field('hovertitle');?></h3>
 											<!-- <p><?php the_field('hovertext');?></p> -->

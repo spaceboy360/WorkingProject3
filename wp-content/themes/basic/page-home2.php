@@ -31,16 +31,34 @@ else
           
           // WP LOOP
           $mainfood = new WP_Query( $mainargs ); ?>
-
-          
           
           <?php if ($mainfood->have_posts()) : while ($mainfood->have_posts()) : $mainfood->the_post(); ?>
 
   <div class="col-xs-6 down4">    
-      <a href="<?php the_permalink();?>">
-          <img class="img-responsive" src="<?php the_field('thumbnail');?>" alt="">                       
-      </a>    
+         
+            <a class="box8" href="<?php the_permalink();?> ">
+                    <div class="content center88">
+                      <h1 class="centercontent2"><?php the_field('mainfoodhovertitle');?></h1>
+                      <img class="img-responsive" src="<?php the_field('person');?>" alt="">
+                      <!-- <p><?php the_field('hovertext');?></p> -->
+                    </div>
+                    
+                    <div class="bg">
+                       <img class="img-responsive" src="<?php the_field('thumbnail');?>" alt="">  
+
+                    </div>
+            </a>
   </div>
+
+
+
+
+
+                  
+
+
+
+
 
    <?php endwhile; else: ?>
       
@@ -79,6 +97,10 @@ else
                 <img src="<?php the_field('subthumbnail');?>" alt="">
               </div>
           </a>
+
+
+
+
 
 
 
