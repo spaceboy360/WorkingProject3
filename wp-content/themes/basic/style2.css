@@ -1,0 +1,445 @@
+/**
+  Theme Name: Chef's Table
+  Version: 1.2
+  Author: Greg
+*/
+
+
+
+
+/* HELPERS ============================ */
+
+.white {
+	background-color: white;
+}
+
+.gray2 {
+	background-color: #e2e1dd;
+}
+
+.black {
+	background-color:black;
+}
+
+.green {
+	background-color:green;
+}
+
+.blue {
+	background-color:blue;
+}
+
+.navy {
+	background-color:navy;
+}
+
+
+
+
+
+.box8 {
+		background-color: #000;
+		position: relative;
+		display: block;
+		background-size: 100%;
+		float: left;
+		margin-right: 47px;
+		width: 477px;
+		height: 468px;
+	}
+
+	.size8 {
+	height: 260px;
+}
+	.box8:hover .content{
+		display: block;
+	}
+	
+	.box8:hover .bg {
+		transition: all 0.5s ease;
+		opacity: .5;
+	}
+	.box8 .content{
+		display: none;
+		position: absolute;
+		color:#fff;
+		padding: 40px;
+		z-index: 10;
+		 transition: all 0.5s ease;
+	}
+
+	.center88 {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+
+	.centercontent {
+		text-align: center;
+	}
+
+	.box8 .bg {
+		position: absolute;
+		
+		overflow: hidden;
+		 transition: all 0.5s ease;
+	}
+	.box8 .bg img {
+		height: 100%;
+	}
+	h3 {
+		font-size: 30px;
+		font-family: arial;
+	}
+
+
+
+/*hover states above*/
+
+.box {
+		background-color: #000;
+		position: relative;
+		display: block;
+		background-size: 100%;
+		float: left;
+		margin-right: 10px;
+		width: 225px;
+		height: 225px;
+	}
+
+
+.size8 {
+	height: 260px;
+}
+
+	.box:hover .content{
+		display: block;
+	}
+	
+	.box:hover .bg {
+		transition: all 0.5s ease;
+		opacity: .5;
+	}
+
+	.box .content{
+		display: none;
+		position: absolute;
+		color:#fff;
+		padding: 40px;
+		z-index: 10;
+		 transition: all 0.5s ease;
+	}
+
+	.center88 {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+
+	.centercontent {
+		text-align: center;
+	}
+
+	.centercontent2 {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.box .bg {
+		position: absolute;
+		width: 225px;
+		height: 225px;
+		overflow: hidden;
+		 transition: all 0.5s ease;
+	}
+
+	.box .bg img {
+		height: 100%;		
+	}
+
+	h3 {
+		font-size: 30px;
+		font-family: arial;
+	}
+
+
+
+/*hover states above ================= */
+
+.box2 {
+		background-color: #000;
+		position: relative;
+		display: block;
+		background-size: 100%;
+		float: left;
+		margin-right: 10px;
+		width: 319px;
+		height: 242px;
+	}
+
+	.box2:hover .content2{
+		display: block;
+	}
+	
+	.box2:hover .bg {
+		transition: all 0.5s ease;
+		opacity: .5;
+	}
+	.box2 .content2{
+		display: none;
+		position: absolute;
+		color:#fff;
+		padding: 40px;
+		z-index: 10;
+		 transition: all 0.5s ease;
+	}
+
+
+
+
+
+	.box2 .bg {
+		position: absolute;
+		width: 319px;
+		height: 242px;
+		overflow: hidden;
+		 transition: all 0.5s ease;
+	}
+	.box2 .bg img {
+		height: 100%;
+	}
+	h3 {
+		font-size: 30px;
+		font-family: arial;
+	}
+
+
+
+/*hover states2 above == */
+
+.fullwidth {
+	width: 100%;
+}
+
+.black {
+	background-color: black;
+}
+
+.hoverover:hover {
+	background-image: url('http://localhost/project3beta/wp-content/uploads/2015/03/black.jpg');
+
+}
+
+.down88 {
+	margin-bottom: 12px; 
+}
+
+.type1 {
+	line-height: 20px;
+	font-size: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.footertype1 {
+	text-align: center;
+	margin-top: -10px;
+}
+
+.spaces {
+	margin-bottom: 12px;
+
+	}
+
+
+.footer {
+	margin-right: auto;
+	margin-left: auto;
+
+	
+}
+
+
+
+.noborder4 {
+	border-radius: 0px;
+	background-color: #e2e1dd;
+	height: 200px;
+}
+
+.squeeze {
+	width: 600px;
+}
+
+.space5 {
+	margin-bottom: 16px;
+}
+
+.marginround {
+	margin-bottom:22px ;
+}
+
+.finalfont a{
+	font-size: 20px;
+	color: black;
+	margin-top: 12px;
+} 
+
+.finalfont a:hover{
+	text-decoration: none;
+} 
+
+.center2 {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.noborder {
+	border:0px;
+	border-radius: 0px;
+}
+
+
+.logo {
+	color: white;
+	font-size: 20px;
+}
+
+.logodown {
+	margin-top: -6px;
+}
+
+.setwidth {
+	width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center3 {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.marginfocus {
+	margin-right: -26px;
+	margin-left: -26px;
+}
+
+.padding1 {
+	margin-left: 15px;
+	margin-bottom: 15px;
+
+}
+
+.down3 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px
+}
+
+.down4 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left:2px;
+}
+
+.down5 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+
+.bottom {
+	margin-bottom: 12px;
+}
+
+
+
+.btn-primary {
+	border-radius: 0px;
+	transition: all 0.4s ease;
+	background-color:#e55b10;
+	border-width:1px;
+	border-color:#c34500;
+}
+
+
+.btn-primary:hover {
+	
+	background-color:#e70606;
+	border-color:#950000;
+
+}
+
+a.logo {
+	text-decoration: none;
+}
+
+a.logo:hover {
+	text-decoration: none;
+	color: gray;
+}
+
+.spacing1 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+/* Navigation ===================================================== */
+
+.nav-pills>li>a {
+	transition:all 0.4s ease;
+}
+
+.nav-pills li.active a{
+	background-color: white;
+	color:#282828;
+}
+
+.nav-pills li.active a:hover { 
+	background-color: white;
+	color:#282828;
+}
+
+.nav-pills li a:focus { 
+	background-color: gray;
+	color: white;
+}
+
+.nav-pills li a:hover { 
+	background-color: white;
+	color:#282828;
+}
+
+.nav-pills li a { 
+	background-color:#e2e1dd;
+	color: #282828;
+}
+
+/* CONTAINER STYLES ==================================================== */
+
+.container-padding {
+	padding:35px;
+}
+
+.container-padding-v {
+	padding:55px 0px 55px 0px;
+}
+
+#nav-padding {
+	padding:8px 0px 45px 0px;
+}
+
+
+/* DIAGNOSTICS ========================================================= */
+
+.container-boom {
+	padding-bottom:300px;
+
+}
+
