@@ -1,8 +1,40 @@
 /**
-  Theme Name: Basic Theme
-  Version: 1
-  Author: Trevor
+  Theme Name: Chef's Table
+  Version: 1.2
+  Author: Greg
 */
+
+
+
+
+/* HELPERS ============================ */
+
+.white {
+	background-color: white;
+}
+
+.gray2 {
+	background-color: #e2e1dd;
+}
+
+.black {
+	background-color:black;
+}
+
+.green {
+	background-color:green;
+}
+
+.blue {
+	background-color:blue;
+}
+
+.navy {
+	background-color:navy;
+}
+
+
+
 
 
 .box8 {
@@ -80,6 +112,7 @@
 .size8 {
 	height: 260px;
 }
+
 	.box:hover .content{
 		display: block;
 	}
@@ -88,6 +121,7 @@
 		transition: all 0.5s ease;
 		opacity: .5;
 	}
+
 	.box .content{
 		display: none;
 		position: absolute;
@@ -121,9 +155,11 @@
 		overflow: hidden;
 		 transition: all 0.5s ease;
 	}
+
 	.box .bg img {
-		height: 100%;
+		height: 100%;		
 	}
+
 	h3 {
 		font-size: 30px;
 		font-family: arial;
@@ -131,7 +167,7 @@
 
 
 
-/*hover states above*/
+/*hover states above ================= */
 
 .box2 {
 		background-color: #000;
@@ -182,7 +218,7 @@
 
 
 
-/*hover states2 above*/
+/*hover states2 above == */
 
 .fullwidth {
 	width: 100%;
@@ -222,11 +258,11 @@
 .footer {
 	margin-right: auto;
 	margin-left: auto;
+
+	
 }
 
-.gray2 {
-	background-color: #e2e1dd;
-}
+
 
 .noborder4 {
 	border-radius: 0px;
@@ -317,16 +353,27 @@
 	margin-bottom: 15px;
 }
 
-.white {
-	background-color: white;
-}
 
 .bottom {
 	margin-bottom: 12px;
 }
 
+
+
 .btn-primary {
 	border-radius: 0px;
+	transition: all 0.4s ease;
+	background-color:#e55b10;
+	border-width:1px;
+	border-color:#c34500;
+}
+
+
+.btn-primary:hover {
+	
+	background-color:#e70606;
+	border-color:#950000;
+
 }
 
 a.logo {
@@ -338,21 +385,25 @@ a.logo:hover {
 	color: gray;
 }
 
-
-
 .spacing1 {
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
 
+/* Navigation ===================================================== */
+
+.nav-pills>li>a {
+	transition:all 0.4s ease;
+}
+
 .nav-pills li.active a{
 	background-color: white;
-	color: black;
+	color:#282828;
 }
 
 .nav-pills li.active a:hover { 
 	background-color: white;
-	color: black;
+	color:#282828;
 }
 
 .nav-pills li a:focus { 
@@ -362,10 +413,33 @@ a.logo:hover {
 
 .nav-pills li a:hover { 
 	background-color: white;
-	color: black;
+	color:#282828;
 }
 
 .nav-pills li a { 
-	background-color: gray;
-	color: white;
+	background-color:#e2e1dd;
+	color: #282828;
 }
+
+/* CONTAINER STYLES ==================================================== */
+
+.container-padding {
+	padding:35px;
+}
+
+.container-padding-v {
+	padding:55px 0px 55px 0px;
+}
+
+#nav-padding {
+	padding:8px 0px 45px 0px;
+}
+
+
+/* DIAGNOSTICS ========================================================= */
+
+.container-boom {
+	padding-bottom:300px;
+
+}
+
