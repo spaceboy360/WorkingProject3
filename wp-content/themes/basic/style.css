@@ -45,7 +45,7 @@
 		float: left;
 		margin-right: 47px;
 		width: 477px;
-		height: 468px;
+		height: 480px;
 	}
 
 	.size8 {
@@ -53,6 +53,10 @@
 }
 	.box8:hover .content{
 		display: block;
+	}
+
+	.exmergencyborderdown1 {
+		margin-bottom: 5px;
 	}
 	
 	.box8:hover .bg {
@@ -88,9 +92,11 @@
 	.box8 .bg img {
 		height: 100%;
 	}
+
+
 	h3 {
 		font-size: 30px;
-		font-family: 'Arial', sans-serif;
+		font-family: 'Fjalla One', sans-serif;
 	}
 
 
@@ -312,6 +318,13 @@
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+}
+
+.center2b {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 10px;
 }
 
 .noborder {

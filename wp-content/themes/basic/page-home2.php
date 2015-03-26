@@ -34,9 +34,9 @@ Template Name: Home2 Page
                 
                 <?php if ($mainfood->have_posts()) : while ($mainfood->have_posts()) : $mainfood->the_post(); ?>
 
-        <div class="col-xs-6 down4">    
+        <div class="col-xs-6 down4 ">    
                
-                  <a class="box8" href="<?php the_permalink();?> ">
+                  <a class="box8 exmergencyborderdown1" href="<?php the_permalink();?> ">
                           <div class="content center88">
                             <h1 class="centercontent2"><?php the_field('mainfoodhovertitle');?></h1>
                             <img class="img-responsive" src="<?php the_field('person');?>" alt="">
