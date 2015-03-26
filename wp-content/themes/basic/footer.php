@@ -119,14 +119,11 @@
 				<a href="mailto:contact@chefstable.com" class="btn center2">contact@chefstable.com</a>
 			</div>
 
-<<<<<<< HEAD
+
 			<div class="col-xs-12 center2 finalfont">
 				<p>© 2015 chefstable.com</p>
-=======
-			<div class="col-xs-12 center2b finalfont">
-				<p>Copyright 2015 Chefstable.com</p>
->>>>>>> origin/master
-			</div>
+
+			
 		</div>
 		
 	</div>
