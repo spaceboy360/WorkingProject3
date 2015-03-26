@@ -116,11 +116,11 @@
 					</div>
 				</div>
 			<div class="col-xs-12 center2 finalfont">
-				<a href="mailto:Contact@Chefstable.com" class="btn center2">Contact@Chefstable.com</a>
+				<a href="mailto:contact@chefstable.com" class="btn center2">contact@chefstable.com</a>
 			</div>
 
 			<div class="col-xs-12 center2 finalfont">
-				<p>Copyright 2015 Chefstable.com</p>
+				<p>© 2015 chefstable.com</p>
 			</div>
 		</div>
 		

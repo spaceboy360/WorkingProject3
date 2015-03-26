@@ -90,7 +90,7 @@
 	}
 	h3 {
 		font-size: 30px;
-		font-family: arial;
+		font-family: 'Arial', sans-serif;
 	}
 
 
@@ -162,7 +162,11 @@
 
 	h3 {
 		font-size: 30px;
-		font-family: arial;
+		font-family: 'Fjalla One', sans-serif;
+	}
+
+	.rowwhite {
+		padding: 30px;
 	}
 
 
@@ -211,9 +215,16 @@
 	.box2 .bg img {
 		height: 100%;
 	}
+	
 	h3 {
 		font-size: 30px;
-		font-family: arial;
+		font-family: 'Fjalla One', sans-serif;
+	}
+
+	h2 {
+		font-size: 36px;
+		font-family: 'Arvo', serif;
+		padding: 30px 0px 20px 0px;
 	}
 
 
@@ -286,11 +297,16 @@
 	font-size: 20px;
 	color: black;
 	margin-top: 12px;
+	font-family: 'Arvo', serif;
 } 
 
 .finalfont a:hover{
 	text-decoration: none;
 } 
+
+.finalfont p {
+	font-family: 'Arvo', serif;
+}
 
 .center2 {
 	margin-left: auto;
