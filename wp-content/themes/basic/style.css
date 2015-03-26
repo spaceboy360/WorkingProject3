@@ -146,6 +146,7 @@
 
 	.centercontent {
 		text-align: center;
+		font-size:24px;
 	}
 
 	.centercontent2 {
@@ -164,6 +165,11 @@
 
 	.box .bg img {
 		height: 100%;		
+	}
+
+	h1 {
+		font-size:30px;
+		font-family: 'Fjalla One', sans-serif;
 	}
 
 	h3 {
@@ -300,9 +306,10 @@
 }
 
 .finalfont a{
-	font-size: 20px;
+	font-size: 16px;
 	color: black;
-	margin-top: 12px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	font-family: 'Arvo', serif;
 } 
 
