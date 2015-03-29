@@ -35,9 +35,10 @@
 				<img src="<?php the_field('person');?>" alt="">
 			</div>
 
+
+
 			<div class="content center88">
 				<h3 class="centercontent"><?php the_field('hovertitle');?></h3>
-				<!-- <p><?php the_field('hovertext');?></p> -->
 			</div>
 	</a>
 
@@ -50,20 +51,39 @@
 						      <div class="modal-header">
 						        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 						      </div>
-						      <div class="modal-body gray2">
-						      		<div class="well size8">
+						      <div class="modal-body white" id="modal-box">
+						      		<div class="white container-content-padding">
 
   									<a class="box" href="<?php the_field('link');?> " target="_blank">
 										<div class="content center88">
-											<h3 class="centercontent"><?php the_field('hovertitle');?></h3>
-											<!-- <p><?php the_field('hovertext');?></p> -->
+											<!-- MODAL: IMAGE HOVER - content/text that appears in the image opacity overlay -->
+											<h3 class="text-center">
+												<?php the_field('hovertitle');?></h3>
 										</div>
-										
+										<!-- hover - opacity overlay -->
 										<div class="bg">
-											<img src="<?php the_field('person');?>" alt="">
+											<!-- MODAL: image of chef -->
+											<img src="<?php the_field('person');?>" alt="" class="image-chef">
 										</div>
+									
+
+										
 									</a>
-									<?php the_field('hovertext');?>
+
+										<div class="chef-content-text">
+											<!-- MODAL: content that appears next to the chef profile image -->
+											<h3><?php the_field('chef-name');?></h3>
+											<p>
+												<?php the_field('hovertext');?>
+											</p>
+											<!-- MODAL: Button - link to chef's website and social media -->
+											<a href="<?php the_field('link')?>"><button class="btn-primary">Chef Site</button></a>
+
+											<a href="<?php the_field('link-twitter'); ?>" target="_blank"><i class="fa fa-twitter-square fa-2x icons-social-media" style="margin-left:12px;"></i></a>
+											<a href="<?php the_field('link-facebook'); ?>" target="_blank"><i class="fa fa-facebook-square fa-2x icons-social-media"></i></a>
+										</div>
+ 
+									
     										
 									</div>
 						      </div>
@@ -96,28 +116,50 @@
 		</div>
 		
 
-		<div class="well noborder4">
-				<div class="container squeeze">
-					<div class="col-xs-3">
-						<a target="_blank" href="http://www.google.com">
-						<img class="img-responsive center3" src="<?php bloginfo('template_directory'); ?>/images/contact1.png" alt="logo"></a>
-					</div>
-					<div class="col-xs-3">
-						<a target="_blank" href="">
-						<img class="img-responsive center3" src="<?php bloginfo('template_directory'); ?>/images/contact2.png" alt="logo"></a>
-					</div>
-					<div class="col-xs-3">
-						<a target="_blank" href="">
-						<img class="img-responsive center3" src="<?php bloginfo('template_directory'); ?>/images/contact3.png" alt="logo"></a>
-					</div>
-					<div class="col-xs-3">
-						<a target="_blank" href="">
-						<img class="img-responsive center3" src="<?php bloginfo('template_directory'); ?>/images/contact4.png" alt="logo"></a>
-					</div>
+		<div class="well noborder4 container-padding">
+
+<!-- SOCIAL MEDIA ICONS - OLD ======================== -->
+
+<!--
+			<div class="container squeeze">
+				<div class="col-xs-3">
+					<a target="_blank" href="http://www.google.com">
+					<img class="img-responsive center3" src="<?php bloginfo('template_directory'); ?>/images/contact1.png" alt="logo"></a>
 				</div>
+				<div class="col-xs-3">
+					<a target="_blank" href="">
+					<img class="img-responsive center3" src="<?php bloginfo('template_directory'); ?>/images/contact2.png" alt="logo"></a>
+				</div>
+				<div class="col-xs-3">
+					<a target="_blank" href="">
+					<img class="img-responsive center3" src="<?php bloginfo('template_directory'); ?>/images/contact3.png" alt="logo"></a>
+				</div>
+				<div class="col-xs-3">
+					<a target="_blank" href="">
+					<img class="img-responsive center3" src="<?php bloginfo('template_directory'); ?>/images/contact4.png" alt="logo"></a>
+				</div>
+			</div>
+-->
+
+<!-- SOCIAL MEDIA ICONS - NEW -->
+			<div class="col-xs-12 container-social-media text-center">
+				 
+				 <a href="#" target="_blank"> <i class="fa fa-twitter-square fa-3x"></i> </a>
+				 <a href="#" target="_blank"> <i class="fa fa-facebook-square fa-3x"></i> </a>
+				 <a href="#" target="_blank"> <i class="fa fa-pinterest-square fa-3x"></i> </a>
+				 <a href="#" target="_blank"> <i class="fa fa-instagram fa-3x"></i> </a>
+
+			</div>
+
 			<div class="col-xs-12 center2 finalfont">
 				<a href="mailto:contact@chefstable.com" class="btn center2">contact@chefstable.com</a>
 			</div>
+
+
+
+
+
+
 
 
 			<div class="col-xs-12 center2 finalfont">

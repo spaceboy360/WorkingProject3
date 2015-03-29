@@ -5,8 +5,6 @@
 */
 
 
-
-
 /* HELPERS ============================ */
 
 .white {
@@ -33,9 +31,34 @@
 	background-color:navy;
 }
 
+/* THEME COLORS ============================= */
+
+.theme-gray {
+	background-color: #e2e1dd;
+}
+
+.theme-gray-content {
+	color: #e2e1dd;
+}
+
+.theme-orange { 
+	background-color:#e55b10	
+}
+
+.theme-orange-content { 
+	color:#e55b10;	
+}
+
+.theme-gray-dark {
+	background-color:#7d7d7b;
+}
+
+.theme-gray-dark-content {
+	color:#7d7d7b;
+}
 
 
-
+/*,,,,,*/
 
 .box8 {
 		background-color: #000;
@@ -70,13 +93,6 @@
 		padding: 40px;
 		z-index: 10;
 		 transition: all 0.5s ease;
-	}
-
-	.center88 {
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: auto;
-		margin-bottom: auto;
 	}
 
 	.centercontent {
@@ -164,7 +180,8 @@
 	}
 
 	.box .bg img {
-		height: 100%;		
+		height: 100%;
+		width:225px;	
 	}
 
 	h1 {
@@ -247,10 +264,6 @@
 	width: 100%;
 }
 
-.black {
-	background-color: black;
-}
-
 .hoverover:hover {
 	background-image: url('http://localhost/project3beta/wp-content/uploads/2015/03/black.jpg');
 
@@ -307,14 +320,17 @@
 
 .finalfont a{
 	font-size: 16px;
-	color: black;
+	color: #7d7d7b;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	font-family: 'Arvo', serif;
+	/*Jon - transition*/
+	transition: all 0.4s ease;
 } 
 
 .finalfont a:hover{
 	text-decoration: none;
+	color:#e55b10;
 } 
 
 .finalfont p {
@@ -400,7 +416,7 @@
 	margin-bottom: 12px;
 }
 
-
+/* Buttons */
 
 .btn-primary {
 	border-radius: 0px;
@@ -416,6 +432,11 @@
 	background-color:#e70606;
 	border-color:#950000;
 
+}
+
+.modal .btn-primary {
+	border:none;
+	border-radius:4px;
 }
 
 a.logo {
@@ -434,18 +455,15 @@ a.logo:hover {
 
 /* Navigation ===================================================== */
 
-.nav-pills>li>a {
-	transition:all 0.4s ease;
-}
-
 .nav-pills li.active a{
-	background-color: white;
-	color:#282828;
+	background-color: #e55b10;
+	color:white;
 }
 
 .nav-pills li.active a:hover { 
 	background-color: white;
-	color:#282828;
+	color:#e55b10;
+	/*color:#282828;*/
 }
 
 .nav-pills li a:focus { 
@@ -455,7 +473,7 @@ a.logo:hover {
 
 .nav-pills li a:hover { 
 	background-color: white;
-	color:#282828;
+	color:#e55b10;
 }
 
 .nav-pills li a { 
@@ -464,6 +482,10 @@ a.logo:hover {
 }
 
 /* CONTAINER STYLES ==================================================== */
+
+#modal-box {
+	height:300px;
+}
 
 .container-padding {
 	padding:35px;
@@ -477,6 +499,67 @@ a.logo:hover {
 	padding:8px 0px 45px 0px;
 }
 
+#padding-footer {
+	padding:45;
+}
+
+.container-content-padding {
+	padding:20px;
+}
+
+
+/* FOOTER STYLES ================================================= */
+
+
+.container-social-media>.fa {
+	margin-left:20px;
+	margin-right:3px;
+}
+
+
+.container-social-media>a {
+	transition: all 0.4s ease;
+	color:#7d7d7b;
+	text-decoration:none;
+
+	margin-left:3px;
+	margin-right:3px;
+}
+
+.container-social-media>a:hover {
+	color:#e55b10;
+}
+
+a>.icons-social-media {
+	transition: all 0.4s ease;
+	color: #7d7d7b;
+}
+
+a>.icons-social-media:hover {
+	color:#e55b10;
+}
+
+.icons-social-media {
+	margin-left:4px;
+	margin-top:10px;
+}
+
+
+/* Content Styles ====================================== */
+
+.image-chef {
+	margin-bottom:300px;
+}
+
+.self-center {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.chef-content-text {
+	margin-left:248px;
+}
+
 
 /* DIAGNOSTICS ========================================================= */
 
@@ -484,4 +567,6 @@ a.logo:hover {
 	padding-bottom:300px;
 
 }
+
+
 
