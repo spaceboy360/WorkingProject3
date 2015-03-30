@@ -144,10 +144,10 @@
 <!-- SOCIAL MEDIA ICONS - NEW -->
 			<div class="col-xs-12 container-social-media text-center">
 				 
-				 <a href="#" target="_blank"> <i class="fa fa-twitter-square fa-3x"></i> </a>
-				 <a href="#" target="_blank"> <i class="fa fa-facebook-square fa-3x"></i> </a>
-				 <a href="#" target="_blank"> <i class="fa fa-pinterest-square fa-3x"></i> </a>
-				 <a href="#" target="_blank"> <i class="fa fa-instagram fa-3x"></i> </a>
+				 <a href="http://www.twitter.com/_chefstable" target="_blank"> <i class="fa fa-twitter-square fa-3x"></i> </a>
+				 <a href="http://www.facebook.com/pages/Chefs-Table/573138929495384" target="_blank"> <i class="fa fa-facebook-square fa-3x"></i> </a>
+				 <a href="http://www.pinterest.com/chefs_table" target="_blank"> <i class="fa fa-pinterest-square fa-3x"></i> </a>
+				 <a href="http://instagram.com/_chefstable" target="_blank"> <i class="fa fa-instagram fa-3x"></i> </a>
 
 			</div>
 
