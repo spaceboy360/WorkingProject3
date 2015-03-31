@@ -12,13 +12,7 @@
 }
 
 .gray2 {
-	background-image: url("images/crosswordbg.png");
-	background-repeat: repeat;
-}
-
-.centerabout {
-	margin-right: auto;
-	margin-left: auto;
+	background-color: #e2e1dd;
 }
 
 .black {
@@ -79,8 +73,7 @@
 
 	.size8 {
 	height: 260px;
-	}
-	
+}
 	.box8:hover .content{
 		display: block;
 	}
