@@ -71,16 +71,19 @@
 									</a>
 
 										<div class="chef-content-text">
-											<!-- MODAL: content that appears next to the chef profile image -->
-											<h3><?php the_field('chef-name');?></h3>
-											<p>
-												<?php the_field('hovertext');?>
-											</p>
-											<!-- MODAL: Button - link to chef's website and social media -->
-											<a href="<?php the_field('link')?>"><button class="btn-primary">Chef Site</button></a>
-
-											<a href="<?php the_field('link-twitter'); ?>" target="_blank"><i class="fa fa-twitter-square fa-2x icons-social-media" style="margin-left:12px;"></i></a>
-											<a href="<?php the_field('link-facebook'); ?>" target="_blank"><i class="fa fa-facebook-square fa-2x icons-social-media"></i></a>
+											
+												<!-- MODAL: content that appears next to the chef profile image -->
+												<h3><?php the_field('chef-name');?></h3>
+												<p>
+													<?php the_field('hovertext');?>
+												</p>
+												<!-- MODAL: Button - link to chef's website and social media -->
+											<div class="container setwidth">
+												<a href="<?php the_field('link')?>"><button class="btn-primary">Chef Site</button></a>
+											
+												<a href="<?php the_field('link-twitter'); ?>" target="_blank"><i class="fa fa-twitter-square fa-2x icons-social-media" style="margin-left:12px;"></i></a>
+												<a href="<?php the_field('link-facebook'); ?>" target="_blank"><i class="fa fa-facebook-square fa-2x icons-social-media"></i></a>
+											</div>
 										</div>
  
 									

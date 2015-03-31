@@ -434,6 +434,10 @@
 
 }
 
+.btnup {
+	margin-top: 2px;
+}
+
 .modal .btn-primary {
 	border:none;
 	border-radius:4px;
