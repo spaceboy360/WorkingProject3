@@ -7,12 +7,18 @@
 
 /* HELPERS ============================ */
 
+body {
+	background-image: url("images/wood-005.png");
+	background-repeat: repeat;
+}
+
 .white {
 	background-color: white;
 }
 
 .gray2 {
-	background-color: #e2e1dd;
+	background-image: url("images/crosswordbg.png");
+	background-repeat: repeat;
 }
 
 .black {
@@ -251,9 +257,9 @@
 	}
 
 	h2 {
-		font-size: 36px;
+		font-size: 40px;
 		font-family: 'Arvo', serif;
-		padding: 30px 0px 20px 0px;
+		padding: 30px 0px 0px 0px;
 	}
 
 
@@ -261,7 +267,8 @@
 /*hover states2 above == */
 
 .fullwidth {
-	width: 100%;
+	width: 85%;
+	background-color: white;
 }
 
 .hoverover:hover {
@@ -380,6 +387,7 @@
 .center3 {
 	margin-right: auto;
 	margin-left: auto;
+	padding: 30px;
 }
 
 .marginfocus {

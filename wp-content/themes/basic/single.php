@@ -17,4 +17,6 @@
 		<p>Sorry, no posts matched your criteria.</p>
 <?php endif; ?>
 
+<?php comments_template(); ?>
+
 <?php get_footer(); ?>
