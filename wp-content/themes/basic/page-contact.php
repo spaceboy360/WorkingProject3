@@ -12,7 +12,7 @@ Template Name: Contact Page
 <div class="row gray2">
 	<div class="container down5">
 			<?php
-// mail('info@trevorgreenleaf.com', 'deal', 'mess');
+
 ini_set('display_errors', 'On');
 // process the form
 // if form was submited
