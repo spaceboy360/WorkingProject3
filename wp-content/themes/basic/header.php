@@ -41,7 +41,7 @@
 		  		</div>
 		  		<div class="col-xs-8 bottom">
 				  	<ul class="nav nav-pills pull-right">
-				  		<li class="<?php is_active('Home'); ?>"><a class="btn btn-primary btn-sm noborder"  href="<?php bloginfo('url'); ?>/Home">Home</a></li>
+				  		<!-- <li class="<?php is_active('Home'); ?>"><a class="btn btn-primary btn-sm noborder"  href="<?php bloginfo('url'); ?>/Home">Home</a></li> -->
 						<li class="<?php is_active('about'); ?>"><a class="btn btn-primary btn-sm noborder" href="<?php bloginfo('url'); ?>/about">About</a></li>
 						<li class="<?php is_active('contact'); ?>"><a class="btn btn-primary btn-sm noborder" href="<?php bloginfo('url'); ?>/contact">Contact</a></li>
 						<li class="<?php is_active('food'); ?>"><a class="btn btn-primary btn-sm noborder" href="<?php bloginfo('url'); ?>/food">Food</a></li>

@@ -507,6 +507,12 @@ a.logo:hover {
 	padding:20px;
 }
 
+.aboutcenter {
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
 
 /* FOOTER STYLES ================================================= */
 
@@ -568,5 +574,13 @@ a>.icons-social-media:hover {
 
 }
 
+/* IMAGE OPTIONS ============================= */
+
+.chefsize {
+	width: 60%;
+	height: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 
