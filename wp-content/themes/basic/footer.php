@@ -83,8 +83,14 @@
 											
 												<a href="<?php the_field('link-twitter'); ?>" target="_blank"><i class="fa fa-twitter-square fa-2x icons-social-media" style="margin-left:12px;"></i></a>
 												<a href="<?php the_field('link-facebook'); ?>" target="_blank"><i class="fa fa-facebook-square fa-2x icons-social-media"></i></a>
+													<!-- DISQUIS COMMENTS -->
+													
+														
+		  										
 											</div>
 										</div>
+
+											
  
 									
     										
@@ -92,6 +98,9 @@
 						      </div>
 						    </div>
 						  </div>
+
+							
+
 						</div>
 
 
@@ -170,8 +179,13 @@
 
 			
 		</div>
+
+	
 		
 	</div>
+
+
+
 
 
 
