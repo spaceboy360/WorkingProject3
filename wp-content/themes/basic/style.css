@@ -484,6 +484,7 @@ a.logo:hover {
 	background-color: rgba(0, 0, 0, 0);
 	color:white;
 	background-image: url('images/chefstablelogo_blk_icon.png');
+	background-position: center;
 	background-repeat: no-repeat;
 }
 
