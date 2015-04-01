@@ -18,10 +18,14 @@ body {
 
 .gray2 {
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 =======
 	background-image: url("images/crosswordbg.png");
 >>>>>>> parent of 00b93b8... changed hover state to the site logo.
+=======
+	/*background-image: url("images/crosswordbg.png");*/
+>>>>>>> parent of 233dc46... More nav changes
 	background-repeat: repeat;
 }
 
@@ -441,12 +445,20 @@ body {
 .btn-primary {
 	border-radius: 0px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	/*transition: all 0.4s ease;*/
 	/*background-color:#e55b10;*/
 	background-color: rgba(0,0,0,0);
 	border-width:0px;
 	/*border-color:#c34500;
 	*/
+=======
+	transition: all 0.4s ease;
+	background-color:#e55b10;
+	border-width:1px;
+	border-color:#c34500;
+	
+>>>>>>> parent of 233dc46... More nav changes
 
 =======
 	transition: all 0.4s ease;
@@ -460,6 +472,7 @@ body {
 .btn-primary:hover {
 	
 <<<<<<< HEAD
+<<<<<<< HEAD
 	/*background-color:#e70606;*/
 	background-color: rgba(0,0,0,0);
 	background-image: url('images/chefstablelogo_blk_icon.png');
@@ -470,6 +483,11 @@ body {
 	background-color:#e70606;
 	border-color:#950000;
 >>>>>>> parent of 00b93b8... changed hover state to the site logo.
+=======
+	background-color:#e70606;
+	/*background-image: url('images/chefstablelogo_blk_icon.png');*/
+	/*border-color:#950000;*/
+>>>>>>> parent of 233dc46... More nav changes
 
 }
 
@@ -508,7 +526,6 @@ a.logo:hover {
 	background-repeat: no-repeat;
 	margin-left: auto;
     margin-right: auto;
-    color:white;
 }
 =======
 >>>>>>> parent of 00b93b8... changed hover state to the site logo.
@@ -519,10 +536,15 @@ a.logo:hover {
 <<<<<<< HEAD
 	background-image: url('images/chefstablelogo_blk_icon.png');
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	background-position: center;
 >>>>>>> parent of f24f99f... fixing hoverstates
 	background-repeat: no-repeat;
+=======
+/*	background-position: center;
+*/	background-repeat: no-repeat;
+>>>>>>> parent of 233dc46... More nav changes
 }
 
 .nav-pills li.active a:hover { 
@@ -542,10 +564,14 @@ a.logo:hover {
 .nav-pills li a:focus { 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	background-color: rgba(0,0,0,0);
 =======
 	/*background-color: gray;*/
 >>>>>>> parent of f24f99f... fixing hoverstates
+=======
+	background-color: gray;
+>>>>>>> parent of 233dc46... More nav changes
 /*	color: white;*/
 =======
 	background-color: gray;
@@ -564,11 +590,15 @@ a.logo:hover {
 /*	color: #282828;*/
 	border-radius: 0px;
 	background-color: rgba(0, 0, 0, 0);
+<<<<<<< HEAD
 	color:white;
 =======
 	background-color:#e2e1dd;
 	color: #282828;
 >>>>>>> parent of 00b93b8... changed hover state to the site logo.
+=======
+	color:black;
+>>>>>>> parent of 233dc46... More nav changes
 }
 
 /* CONTAINER STYLES ==================================================== */
