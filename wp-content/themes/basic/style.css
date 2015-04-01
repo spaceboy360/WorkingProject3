@@ -484,19 +484,22 @@ a.logo:hover {
 	background-color: rgba(0, 0, 0, 0);
 	color:white;
 	background-image: url('images/chefstablelogo_blk_icon.png');
-	background-position: center;
-	background-repeat: no-repeat;
+/*	background-position: center;
+*/	background-repeat: no-repeat;
 }
 
 .nav-pills li.active a:hover { 
-	
+	background-image: url('images/chefstablelogo_blk_icon.png');
+	background-position: center;
+	background-color: rgba(0, 0, 0, 0);
+	background-repeat: no-repeat;
 	/*color:#e55b10;
 	color:black;*/
 	/*color:#282828;*/
 }
 
 .nav-pills li a:focus { 
-	/*background-color: gray;*/
+	background-color: gray;
 /*	color: white;*/
 }
 
