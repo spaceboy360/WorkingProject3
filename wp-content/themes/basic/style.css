@@ -8,7 +8,7 @@
 /* HELPERS ============================ */
 
 body {
-	
+	background-image: url("images/wood-005.png");
 	background-repeat: repeat;
 }
 
@@ -19,6 +19,7 @@ body {
 .gray2 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 =======
 	background-image: url("images/crosswordbg.png");
@@ -26,6 +27,9 @@ body {
 =======
 	/*background-image: url("images/crosswordbg.png");*/
 >>>>>>> parent of 233dc46... More nav changes
+=======
+	background-image: url("images/wood-005.png");
+>>>>>>> parent of bd24bb3... texture change
 	background-repeat: repeat;
 }
 
@@ -520,11 +524,14 @@ a.logo:hover {
 
 /* Navigation ===================================================== */
 <<<<<<< HEAD
+<<<<<<< HEAD
 #texture{
 	background-image: url("images/wood-005.png");
 	background-repeat: repeat; 
 }
 
+=======
+>>>>>>> parent of bd24bb3... texture change
 .nav-pills{
 	background-color: rgba(0, 0, 0, 0);
 	background-repeat: no-repeat;
