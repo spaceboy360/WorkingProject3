@@ -1,4 +1,4 @@
-row gray2/**
+/**
   Theme Name: Chef's Table
   Version: 1.2
   Author: Greg
@@ -17,9 +17,12 @@ body {
 }
 
 .gray2 {
+<<<<<<< HEAD
 	
+=======
+	background-image: url("images/crosswordbg.png");
+>>>>>>> parent of 00b93b8... changed hover state to the site logo.
 	background-repeat: repeat;
-	background-color:#d3d3d3; 
 }
 
 .black {
@@ -42,7 +45,6 @@ body {
 
 .theme-gray {
 	background-color: #e2e1dd;
-
 }
 
 .theme-gray-content {
@@ -50,7 +52,7 @@ body {
 }
 
 .theme-orange { 
-	background-color:#e55b10;	
+	background-color:#e55b10	
 }
 
 .theme-orange-content { 
@@ -168,9 +170,9 @@ body {
 		margin-bottom: auto;
 	}
 
-	.centercontent {  /*for some reason, deleting this fixed the centering of text in the food buttons. */
-		/*text-align: center;
-		font-size:24px;*/
+	.centercontent {
+		text-align: center;
+		font-size:24px;
 	}
 
 	.centercontent2 {
@@ -184,7 +186,7 @@ body {
 		width: 225px;
 		height: 225px;
 		overflow: hidden;
-		transition: all 0.5s ease;
+		 transition: all 0.5s ease;
 	}
 
 	.box .bg img {
@@ -438,6 +440,7 @@ body {
 
 .btn-primary {
 	border-radius: 0px;
+<<<<<<< HEAD
 	/*transition: all 0.4s ease;*/
 	/*background-color:#e55b10;*/
 	background-color: rgba(0,0,0,0);
@@ -445,17 +448,28 @@ body {
 	/*border-color:#c34500;
 	*/
 
+=======
+	transition: all 0.4s ease;
+	background-color:#e55b10;
+	border-width:1px;
+	border-color:#c34500;
+>>>>>>> parent of 00b93b8... changed hover state to the site logo.
 }
 
 
 .btn-primary:hover {
 	
+<<<<<<< HEAD
 	/*background-color:#e70606;*/
 	background-color: rgba(0,0,0,0);
 	background-image: url('images/chefstablelogo_blk_icon.png');
 	background-repeat: no-repeat;
 	background-position: center;
 
+=======
+	background-color:#e70606;
+	border-color:#950000;
+>>>>>>> parent of 00b93b8... changed hover state to the site logo.
 
 }
 
@@ -483,6 +497,7 @@ a.logo:hover {
 }
 
 /* Navigation ===================================================== */
+<<<<<<< HEAD
 #texture{
 	background-image: url("images/wood-005.png");
 	background-repeat: repeat; 
@@ -495,11 +510,13 @@ a.logo:hover {
     margin-right: auto;
     color:white;
 }
+=======
+>>>>>>> parent of 00b93b8... changed hover state to the site logo.
 
 .nav-pills li.active a{
-	/*background-color: #e55b10;*/
-	background-color: rgba(0, 0, 0, 0);
+	background-color: #e55b10;
 	color:white;
+<<<<<<< HEAD
 	background-image: url('images/chefstablelogo_blk_icon.png');
 	background-position: center;
 	background-repeat: no-repeat;
@@ -512,32 +529,42 @@ a.logo:hover {
 	background-repeat: no-repeat;
 	/*color:#e55b10;
 	color:black;*/
+=======
+}
+
+.nav-pills li.active a:hover { 
+	background-color: white;
+	color:#e55b10;
+>>>>>>> parent of 00b93b8... changed hover state to the site logo.
 	/*color:#282828;*/
 }
 
 .nav-pills li a:focus { 
+<<<<<<< HEAD
 	background-color: rgba(0,0,0,0);
 /*	color: white;*/
+=======
+	background-color: gray;
+	color: white;
+>>>>>>> parent of 00b93b8... changed hover state to the site logo.
 }
 
 .nav-pills li a:hover { 
-	/*background-color: white;
-	color:#e55b10;*/
-	background-image: url('images/chefstablelogo_blk_icon.png');
-	background-position: center;
-	background-color: rgba(0, 0, 0, 0);
-	background-repeat: no-repeat;
-	margin-left: auto;
-    margin-right: auto;
-
+	background-color: white;
+	color:#e55b10;
 }
 
 .nav-pills li a { 
+<<<<<<< HEAD
 	/*background-color:#e2e1dd;*/
 /*	color: #282828;*/
 	border-radius: 0px;
 	background-color: rgba(0, 0, 0, 0);
 	color:white;
+=======
+	background-color:#e2e1dd;
+	color: #282828;
+>>>>>>> parent of 00b93b8... changed hover state to the site logo.
 }
 
 /* CONTAINER STYLES ==================================================== */
