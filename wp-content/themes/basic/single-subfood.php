@@ -26,6 +26,12 @@
             <a href="<?php bloginfo('url');?>/home/" class="btn btn-primary btn-sm down88 margin2">Go Back</a>
         </div>
 
+        <div class="col-xs-12 down5">
+          <div id="disqus_thread">
+              <?php disqus_embed('chefstable'); ?>
+          </div>
+      </div>
+
       </div>
 
 

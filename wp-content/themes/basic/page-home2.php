@@ -68,7 +68,7 @@ Template Name: Home2 Page
       </div>
 
 
-  <div class="container setwidth">
+<div class="container setwidth">
   <?php $args = array(
             'post_type'       =>'subfood',
             'orderby'         =>'title',
@@ -115,11 +115,7 @@ Template Name: Home2 Page
     <?php endif; ?>
     <?php wp_reset_postdata(); ?>
 <!-- DISCUS COMMENTS HERE -->
-      <div class="col-xs-12 down5">
-          <div id="disqus_thread">
-              <?php disqus_embed('chefstable'); ?>
-          </div>
-      </div>
+      
 
 </div>
 

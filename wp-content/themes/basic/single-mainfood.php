@@ -36,6 +36,12 @@
       	<img class="img-responsive" src="<?php the_field("image");?>" alt="">
       </div>
 
+      <div class="col-xs-12 down5">
+          <div id="disqus_thread">
+              <?php disqus_embed('chefstable'); ?>
+          </div>
+      </div>
+
       </p>
 
   <?php comments_template(); ?>
