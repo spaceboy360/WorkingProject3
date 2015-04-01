@@ -19,7 +19,7 @@
 <body>
   <div class="container fullwidth">
   	
-	<div class="row gray2">
+	<div class="row gray2" id="texture"> <!-- texture is a div ID I used to keep the texture only on the nav bar. --> 
 	  	<div class="container setwidth">
 		  	<div class="navigation noborder spacing1" id="nav-padding">
 		  		<div class="col-xs-4 logodown">

@@ -8,7 +8,7 @@ row gray2/**
 /* HELPERS ============================ */
 
 body {
-	background-image: url("images/wood-005.png");
+	
 	background-repeat: repeat;
 }
 
@@ -17,7 +17,7 @@ body {
 }
 
 .gray2 {
-	background-image: url("images/wood-005.png");
+	
 	background-repeat: repeat;
 	background-color:#d3d3d3; 
 }
@@ -476,6 +476,11 @@ a.logo:hover {
 }
 
 /* Navigation ===================================================== */
+#texture{
+	background-image: url("images/wood-005.png");
+	background-repeat: repeat; 
+}
+
 .nav-pills{
 	background-color: rgba(0, 0, 0, 0);
 	background-repeat: no-repeat;
