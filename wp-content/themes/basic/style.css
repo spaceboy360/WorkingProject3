@@ -518,14 +518,15 @@ a.logo:hover {
 	color:white;
 <<<<<<< HEAD
 	background-image: url('images/chefstablelogo_blk_icon.png');
+<<<<<<< HEAD
+=======
+	background-position: center;
+>>>>>>> parent of f24f99f... fixing hoverstates
 	background-repeat: no-repeat;
 }
 
 .nav-pills li.active a:hover { 
-	background-image: url('images/chefstablelogo_blk_icon.png');
-	background-position: center;
-	background-color: rgba(0, 0, 0, 0);
-	background-repeat: no-repeat;
+	
 	/*color:#e55b10;
 	color:black;*/
 =======
@@ -540,7 +541,11 @@ a.logo:hover {
 
 .nav-pills li a:focus { 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	background-color: rgba(0,0,0,0);
+=======
+	/*background-color: gray;*/
+>>>>>>> parent of f24f99f... fixing hoverstates
 /*	color: white;*/
 =======
 	background-color: gray;
