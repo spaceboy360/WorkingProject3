@@ -17,7 +17,9 @@
 	
 </head>
 <body>
-  <div class="container fullwidth">
+
+
+  <div class="container" id="wrapper">
   	
 	<div class="row gray2" id="texture"> <!-- texture is a div ID I used to keep the texture only on the nav bar. --> 
 	  	<div class="container setwidth">

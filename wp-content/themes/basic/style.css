@@ -262,11 +262,18 @@ body {
 		font-size: 40px;
 		font-family: 'Arvo', serif;
 		padding: 30px 0px 0px 0px;
+		text-shadow: 1px 1px 2px #7d7d7d;
 	}
 
 
 
 /*hover states2 above == */
+
+#wrapper {
+	width: 100%;
+	max-width: 1200px;
+	background-color: white;
+}
 
 .fullwidth {
 	width: 85%;
