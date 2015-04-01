@@ -17,7 +17,7 @@ body {
 }
 
 .gray2 {
-	/*background-image: url("images/crosswordbg.png");*/
+	background-image: url("images/wood-005.png");
 	background-repeat: repeat;
 	background-color:#d3d3d3; 
 }
@@ -432,19 +432,23 @@ body {
 .btn-primary {
 	border-radius: 0px;
 	transition: all 0.4s ease;
-	background-color:#e55b10;
-	border-width:1px;
-	border-color:#c34500;
-	
+	/*background-color:#e55b10;*/
+	background-color: rgba(0,0,0,0);
+	border-width:0px;
+	/*border-color:#c34500;
+	*/
 
 }
 
 
 .btn-primary:hover {
 	
-	background-color:#e70606;
-	/*background-image: url('images/chefstablelogo_blk_icon.png');*/
-	/*border-color:#950000;*/
+	/*background-color:#e70606;*/
+	background-color: rgba(0,0,0,0);
+	background-image: url('images/chefstablelogo_blk_icon.png');
+	background-repeat: no-repeat;
+	background-position: center;
+
 
 }
 
@@ -477,6 +481,7 @@ a.logo:hover {
 	background-repeat: no-repeat;
 	margin-left: auto;
     margin-right: auto;
+    color:white;
 }
 
 .nav-pills li.active a{
@@ -484,8 +489,8 @@ a.logo:hover {
 	background-color: rgba(0, 0, 0, 0);
 	color:white;
 	background-image: url('images/chefstablelogo_blk_icon.png');
-/*	background-position: center;
-*/	background-repeat: no-repeat;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .nav-pills li.active a:hover { 
@@ -499,7 +504,7 @@ a.logo:hover {
 }
 
 .nav-pills li a:focus { 
-	background-color: gray;
+	background-color: rgba(0,0,0,0);
 /*	color: white;*/
 }
 
@@ -520,7 +525,7 @@ a.logo:hover {
 /*	color: #282828;*/
 	border-radius: 0px;
 	background-color: rgba(0, 0, 0, 0);
-	color:black;
+	color:white;
 }
 
 /* CONTAINER STYLES ==================================================== */
