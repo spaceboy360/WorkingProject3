@@ -37,8 +37,8 @@
 						</div>
 					</form>
 					<!-- SEARCH FORM - START -->
-								
-		  		</div>
+<!-- 								added custom css to nav btns
+ -->		  		</div>
 		  		<div class="col-xs-8 bottom">
 				  	<ul class="nav nav-pills pull-right">
 				  		<!-- <li class="<?php is_active('Home'); ?>"><a class="btn btn-primary btn-sm noborder"  href="<?php bloginfo('url'); ?>/Home">Home</a></li> -->
