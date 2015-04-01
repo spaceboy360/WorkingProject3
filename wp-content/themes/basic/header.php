@@ -28,10 +28,10 @@
 					<form role="search" method="get" id="searchform" class="searchform" action="<?php bloginfo('url' ); ?>/search">
 						<div class="form-group">
 							<div class="col-xs-9">
-					    		<input type="text" name="search" class="form-control" placeholder="Search">
+					    		<input type="text" name="search" class="form-control" placeholder="find something">
 					    	</div>
 
-					    	<div class="col-xs-3">
+					    	<div class="col-xs-2">
 					    		<input type="submit" class="btn btn-primary" value="Search">
 					  		</div>
 						</div>
