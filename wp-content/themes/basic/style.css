@@ -431,7 +431,7 @@ body {
 
 .btn-primary {
 	border-radius: 0px;
-	transition: all 0.4s ease;
+	/*transition: all 0.4s ease;*/
 	/*background-color:#e55b10;*/
 	background-color: rgba(0,0,0,0);
 	border-width:0px;
