@@ -39,7 +39,7 @@ Template Name: Home2 Page
                   <a class="box8 exmergencyborderdown1" href="<?php the_permalink();?> ">
                           <div class="content center88">
                             <h1 class="centercontent2"><?php the_field('mainfoodhovertitle');?></h1>
-                            <img class="img-responsive" src="<?php the_field('person');?>" alt="">
+                            <img class="img-responsive" src="<?php the_field('person');?>" alt="" style="width:100%">
                             <!-- <p><?php the_field(/*'hovertext'*/);?></p> -->
                           </div>
                           
