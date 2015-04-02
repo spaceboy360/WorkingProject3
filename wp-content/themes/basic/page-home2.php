@@ -72,7 +72,7 @@ Template Name: Home2 Page
   <?php $args = array(
             'post_type'       =>'subfood',
             'orderby'         =>'title',
-            // 'posts_per_page'  => '6',
+            'posts_per_page'  => '3',
             );
           
           // WP LOOP
